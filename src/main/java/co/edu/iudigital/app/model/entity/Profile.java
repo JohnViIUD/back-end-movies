@@ -15,7 +15,7 @@ public class Profile  implements Serializable{
 	@Id
 	@Column(name = "profile_id")
 	private int id;
-	private String name;
+	private String nombre;
 	/**
 	 * @return the id
 	 */
@@ -31,14 +31,14 @@ public class Profile  implements Serializable{
 	/**
 	 * @return the nombre
 	 */
-	public String getName() {
-		return name;
+	public String getNombre() {
+		return nombre;
 	}
 	/**
 	 * @param nombre the nombre to set
 	 */
-	public void setName(String name) {
-		this.name = name;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 	
 	
